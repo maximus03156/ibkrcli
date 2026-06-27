@@ -1,6 +1,6 @@
 # IBKR client — phased build
 
-This is the IBKR integration for the options bot. Built as five independent
+This is the IBKR integration for pulling data. Built as five independent
 phases that prove progressively more capability against your paper account.
 
 The phases exist because IBKR integration fails for many small reasons, and
@@ -10,7 +10,7 @@ to look.
 
 ## What you need before starting
 
-- Mint Linux box on your home network
+- Linux box on your home network
 - IBKR account with paper trading credentials (separate username from live)
 - Python 3.10 or newer
 - ib_async installed: `pip install ib_async`
