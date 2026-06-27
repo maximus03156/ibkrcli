@@ -1,6 +1,6 @@
 # IBKR client — phased build
 
-This is the IBKR integration for the options bot. Built as five independent
+This is the IBKR integration for the data. Built as five independent
 phases that prove progressively more capability against your paper account.
 
 The phases exist because IBKR integration fails for many small reasons, and
@@ -172,5 +172,5 @@ Once all 5 phases pass:
 - Strategy bots use `client.qualify_option()` and
   `client.market_data_with_greeks()` to build candidates
 
-We will wire all of this up in the next module. For now, getting the five
+Getting the five
 phases green against your paper account is the goal.
