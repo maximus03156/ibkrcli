@@ -4,7 +4,7 @@ This is the IBKR integration for the data. Built as five independent
 phases that prove progressively more capability against your paper account.
 
 The phases exist because IBKR integration fails for many small reasons, and
-"my bot doesn't work" is impossible to debug. Each phase isolates one part
+ is impossible to debug. Each phase isolates one part
 of the system. If phase 2 works and phase 3 doesn't, you know exactly where
 to look.
 
